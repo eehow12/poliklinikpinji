@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf9f6;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2547a5; /* Calming deep blue */
+  margin-bottom: 30px;
+}
+
+#searchInput {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 16px 20px;
+  width: 90%;
+  max-width: 600px;
+  font-size: 1.2rem;
+  border: 2px solid #a8d5c2;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+  border-color: #2e7d67;
+  box-shadow: 0 0 8px rgba(46, 125, 103, 0.2);
+}
+
+#results {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.drug-entry {
+  background-color: #ffffff;
+  border-left: 5px solid #2e7d67;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.drug-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+  color: #2e7d67;
+}
