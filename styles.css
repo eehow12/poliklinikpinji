@@ -6,6 +6,10 @@ body {
   padding: 40px 20px;
 }
 
+.title-block {
+  margin-bottom: 1.5rem;
+}
+
 h1 {
   text-align: center;
   color: #2547a5; /* Calming deep blue */
